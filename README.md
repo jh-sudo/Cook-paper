@@ -7,7 +7,7 @@
 
 ## 🌐 Live Preview
 
-*(Optional: Add GitHub Pages or Netlify link here)*
+https://raw.githack.com/jh-sudo/Cook-paper/refs/heads/main/index.html
 
 ---
 
