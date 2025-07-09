@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>side articles</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="../style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="../index.js"></script>
+
+    </head>
+    <body>
+    <!-- nav bar -->
+    <header class="header" data-scroll>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Cook Paper</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../page1/page1.html">Featured Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../page2/page2.html">Other Articles</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+        <div class="Food-gallery-container">
+
+            <div class="Slides">
+              <img class="article-img" src="../page5/page5 img/alessandra-sio-2mdRjQ6cTp4-unsplash.jpg" alt="street Satay "style="width:100%">
+              <p class="text bg-dark bg-opacity-50" >Satay, or sate in Indonesian spelling, is a Southeast Asian dish of seasoned, skewered and grilled meat, served with a sauce.</p>
+            </div>
+            
+            <div class="Slides ">
+              <img class="article-img" src="../page5/page5 img/ca-creative-yzFO7e_87fs-unsplash.jpg" alt="rice with vegis" style="width:100%">
+              <p class="text bg-dark bg-opacity-50">mixed vegetables served with rice</p>
+            </div>
+            
+            <div class="Slides">
+              <img class="article-img" src="../page5/page5 img/ian-valerio-0AMFNT9IBfA-unsplash.jpg" alt="korean street food"style="width:100%">
+              <p class="text bg-dark bg-opacity-50">Like tteok-kochi and eumok-kochi, dakkochi refers to a type of skewered Korean street food, this time with chicken (dak) as its main ingredient.</p>
+            </div>
+
+            <div class="Slides">
+                <img class="article-img" src="../page5/page5 img/james-sutton-mdWyghy08vg-unsplash.jpg" alt=" street stir fried noodles" style="width:100%">
+                <p class="text bg-dark bg-opacity-50">Fried noodles are common throughout East Asia, Southeast Asia and South Asia. Many varieties, cooking styles, and ingredients exist.</p>
+              </div>
+
+              <div class="Slides">
+                <img class="article-img" src="../page5/page5 img/nita-anggraeni-goenawan-9tuLDya614I-unsplash.jpg"  alt="satays" style="width:100%">
+                <p class="text bg-dark bg-opacity-50">more satays</p>
+              </div>
+            
+              <div class="Slides">
+                <img class="article-img" src="../page5/page5 img/yosuke-ota-ehufJ6QeqxY-unsplash.jpg" alt="roasted chicken and crispy pork"style="width:100%">
+                <p class="text bg-dark bg-opacity-50">Asian roasted chicken and crispy pork</p>
+              </div>
+            
+              <div class="Slides">
+                <img class="article-img" src="../page5/page5 img/yosuke-ota-NBjK8yRWd5E-unsplash.jpg" alt="claypot rice" style="width:100%">
+                <p class="text bg-dark bg-opacity-50">Claypot rice, sometimes translated as "rice casserole", is a Chinese traditional dinner eaten widely in Guangdong in Southern China as well as the Chinese communities of Malaysia, Indonesia, Singapore and Thailand</p>
+              </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span> 
+              <span class="dot" onclick="currentSlide(5)"></span> 
+              <span class="dot" onclick="currentSlide(6)"></span> 
+              <span class="dot" onclick="currentSlide(7)"></span> 
+            </div>
+
+    </main>
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+            <div class="mx-auto text-center">
+                <h4>Follow Us</h4>
+                <ul class="social-media-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center">&copy; 2023 Cook Paper</p>
+    </footer>
+    </body>
+</html>
