@@ -77,12 +77,6 @@ CookPaper/
 
 ---
 
-## 📷 Screenshots
-
-*(Optional: Add `.jpg` screenshots of homepage or carousel previews here if uploading to repo)*
-
----
-
 ## 🧾 Credits
 
 - Image sources: Unsplash (via attribution in filenames), for educational use only.
