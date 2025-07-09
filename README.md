@@ -85,7 +85,6 @@ CookPaper/
 
 ## 🧾 Credits
 
-- Written and developed by [Your Name] as part of [School Name]'s Web Development module.
 - Image sources: Unsplash (via attribution in filenames), for educational use only.
 - Frameworks: [Bootstrap](https://getbootstrap.com/), [FontAwesome](https://fontawesome.com/), [jQuery](https://jquery.com/)
 
