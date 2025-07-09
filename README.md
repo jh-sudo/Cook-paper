@@ -40,19 +40,6 @@ CookPaper/
 
 ---
 
-## 🚀 How to View Locally
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/cook-paper.git
-   cd cook-paper
-   ```
-
-2. **Launch in Browser**
-   Open `index.html` using your browser (double-click or use VSCode Live Server).
-
----
-
 ## 📚 Features
 
 - 📰 **Multi-Page Navigation**: Seamlessly navigate through different sections including featured articles, side articles, and food galleries.
@@ -83,34 +70,3 @@ CookPaper/
 - Frameworks: [Bootstrap](https://getbootstrap.com/), [FontAwesome](https://fontawesome.com/), [jQuery](https://jquery.com/)
 
 ---
-
-## 📦 How to Push to GitHub (Basic Instructions)
-
-1. **Initialize Git (if not already):**
-   ```bash
-   git init
-   ```
-
-2. **Add remote origin:**
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/cook-paper.git
-   ```
-
-3. **Add and commit files:**
-   ```bash
-   git add .
-   git commit -m "Initial commit for Cook Paper project"
-   ```
-
-4. **Push to GitHub:**
-   ```bash
-   git branch -M main
-   git push -u origin main
-   ```
-
----
-
-## 📌 Notes
-
-- Images used are stored locally; GitHub repositories have a file size limit, so not all images may be included in the public repo.
-- Some pages reference subfolders (e.g., `page3/page3 img/`). Ensure correct directory structure if deploying live.
